@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?><!-- The Relative Layout provides margins. Margins don't work for Dialogs -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="2dp">
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/layout_dialog_isbn"
+        style="@style/TextInputLayoutStyle"
+        android:background="@color/blanco"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:baselineAligned="false"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:baselineAligned="true"
+                android:orientation="vertical">
+
+                <androidx.appcompat.widget.Toolbar
+                    android:layout_width="match_parent"
+                    android:layout_height="25dp"
+                    android:background="@color/Aide"
+                    android:id="@+id/toolbar"
+                    android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+
+                    <TextView
+                        style="@style/ProductNameListStyle"
+                        android:layout_width="250dp"
+                        android:layout_height="match_parent"
+                        android:gravity="center_vertical|center_horizontal"
+                        android:inputType="number"
+                        android:textSize="15dp"
+                        android:textColor="@color/blanco"
+                        android:text="@string/information" />
+
+                    <Button
+                        android:id="@+id/CloseDialog"
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:layout_alignParentRight="true"
+                        android:background="@drawable/round_button_background"
+                        android:gravity="center_vertical|center_horizontal"
+                        android:onClick="cancelActivity"
+                        android:text="X"
+                        android:textColor="#FFF"
+                        android:textSize="12sp"
+                        android:textStyle="bold" />
+
+                </androidx.appcompat.widget.Toolbar>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:baselineAligned="false"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="230dp"
+                    android:layout_height="wrap_content"
+
+                    android:baselineAligned="false"
+                    android:orientation="vertical"
+                    android:layout_gravity="center">
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:baselineAligned="true"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            style="@style/ProductPriceListStyle"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/blauFort"
+                            android:textSize="12dp"
+                            android:text="@string/name" />
+
+                        <TextView
+                            android:id="@+id/Name_drug"
+                            style="@style/ProductQuantityListStyle"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/Aide"
+                            android:textSize="12dp"
+                            android:text="IBUPROFENO" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:baselineAligned="true"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            style="@style/ProductPriceListStyle"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/blauFort"
+                            android:textSize="12dp"
+                            android:text="@string/quantity" />
+
+                        <TextView
+                            android:id="@+id/Quantity_info"
+                            style="@style/ProductQuantityListStyle"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/Aide"
+                            android:textSize="12dp"
+                            android:text="40 pills" />
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+                <Button
+                    android:id="@+id/URLprospect"
+                    style="@style/TextAppearance.AppCompat.Button"
+                    android:background="@drawable/button"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="3dp"
+                    android:textSize="20dp"
+                    android:text="+ ℹ️" />
+
+            </LinearLayout>
+        </LinearLayout>
+    </com.google.android.material.textfield.TextInputLayout>
+
+</RelativeLayout>

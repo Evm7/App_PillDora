@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/drug_item"
+    android:paddingBottom="@dimen/card_padding">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/reminder_card"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/card_layout_margin"
+        android:clickable="true"
+        android:focusable="true"
+        android:foreground="?android:attr/selectableItemBackground"
+        card_view:cardCornerRadius="@dimen/card_corner_radius">
+
+        <LinearLayout
+            android:id="@+id/background_to_change"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/blanco"
+            android:orientation="vertical"
+            android:paddingTop="@dimen/card_padding"
+
+            android:paddingBottom="@dimen/card_padding">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="@string/time"
+                android:textColor="@color/Aide"
+                android:textSize="10sp" />
+
+
+            <TextView
+                android:id="@+id/time_reminder"
+                style="@style/ProductQuantityListStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textColor="@color/color_list_quantity"
+                android:textSize="14sp"
+                tools:text="08:00:00" />
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+
+</RelativeLayout>

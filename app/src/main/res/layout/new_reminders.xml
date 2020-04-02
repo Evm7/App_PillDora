@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?><!-- The Relative Layout provides margins. Margins don't work for Dialogs -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:paddingBottom="15dp">
+
+    <com.google.android.material.textfield.TextInputLayout
+        style="@style/TextInputLayoutStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/blanco">
+
+
+        <LinearLayout
+            android:id="@+id/parent_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:baselineAligned="false"
+            android:orientation="vertical">
+
+            <androidx.appcompat.widget.Toolbar
+                android:id="@+id/toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:layout_gravity="center"
+                android:layout_margin="5dp"
+                android:background="@color/Aide"
+                android:paddingBottom="@dimen/card_padding"
+                android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+
+                <TextView
+                    style="@style/ProductNameListStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:inputType="number"
+                    android:text="@string/reminders_to_be_set"
+                    android:textColor="#000000"
+                    android:textSize="15dp" />
+
+            </androidx.appcompat.widget.Toolbar>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/add_reminder"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_gravity="center"
+                    android:layout_margin="10dp"
+                    android:background="@drawable/round_button_background_green"
+                    android:focusable="false"
+                    android:gravity="center"
+                    android:focusableInTouchMode="false"
+                    android:padding="@dimen/card_padding"
+                    android:text="➕"
+                    android:textColor="#FFF"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+
+                <LinearLayout
+                    android:id="@+id/vertical_reminders"
+                    android:layout_width="190dp"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                </LinearLayout>
+
+                <Button
+                    android:id="@+id/close_myself"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_gravity="center"
+                    android:layout_margin="10dp"
+                    android:background="@drawable/round_button_background"
+                    android:focusable="false"
+                    android:focusableInTouchMode="false"
+                    android:padding="@dimen/card_padding"
+                    android:text="🚪"
+                    android:textColor="#FFF"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+        </LinearLayout>
+    </com.google.android.material.textfield.TextInputLayout>
+</RelativeLayout>

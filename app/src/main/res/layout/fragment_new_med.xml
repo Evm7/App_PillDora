@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/aide_gradient"
+    tools:context=".NewPrescriptionFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/nameMed"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="56dp"
+                android:layout_marginTop="30dp"
+                android:text="@string/medicine_name"
+                android:textColor="@color/blauFort"
+                android:textSize="15dp"
+                android:textStyle="bold|italic"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:id="@+id/nameMedicineToFill"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="56dp"
+                    android:layout_marginTop="8dp"
+                    android:ems="10"
+                    android:inputType="numberDecimal|number"
+                    app:layout_constraintStart_toStartOf="parent" />
+
+                <Button
+                    android:id="@+id/camera_new_med_btn"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="20dp"
+                    android:backgroundTint="@color/color_text_input_layout"
+                    android:focusable="false"
+                    android:focusableInTouchMode="false"
+                    android:padding="@dimen/card_padding"
+                    android:text="📷"
+                    android:textSize="20dp" />
+
+
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/my_avatar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                app:layout_collapseMode="parallax"
+                app:layout_collapseParallaxMultiplier="0.7" />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="56dp"
+                android:layout_marginTop="30dp"
+                android:text="@string/pills_in_the_package"
+                android:textColor="@color/blauFort"
+                android:textSize="15dp"
+                android:textStyle="bold|italic"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:id="@+id/quantityMedicineToFill"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="56dp"
+                    android:layout_marginTop="8dp"
+                    android:ems="10"
+                    android:inputType="number"
+                    app:layout_constraintStart_toStartOf="parent" />
+
+                <Button
+                    android:id="@+id/quantity_new_med_btn"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="20dp"
+                    android:backgroundTint="@color/color_text_input_layout"
+                    android:focusable="false"
+                    android:focusableInTouchMode="false"
+                    android:padding="@dimen/card_padding"
+                    android:text="#️⃣"
+                    android:textSize="20dp" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="56dp"
+                android:layout_marginTop="30dp"
+                android:text="@string/when_pills_expire"
+                android:textColor="@color/blauFort"
+                android:textSize="15dp"
+                android:textStyle="bold|italic"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:id="@+id/expdateMedicineToFill"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="56dp"
+                    android:layout_marginTop="8dp"
+                    android:ems="10"
+                    android:inputType="date|datetime"
+                    app:layout_constraintStart_toStartOf="parent" />
+
+                <Button
+                    android:id="@+id/calendar_new_med_btn"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="20dp"
+                    android:backgroundTint="@color/color_text_input_layout"
+                    android:focusable="false"
+                    android:focusableInTouchMode="false"
+                    android:padding="@dimen/card_padding"
+                    android:text="🗓️"
+                    android:textSize="20dp" />
+
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/end_date"
+            android:layout_width="18dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="56dp"
+            android:layout_marginLeft="56dp"
+            android:layout_marginTop="22dp"
+            android:text=""
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/nameMedicineToFill" />
+
+        <Button
+            android:id="@+id/intr_med_button"
+            android:background="@drawable/buttonstyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/blanco"
+            android:layout_gravity="center"
+            android:textSize="18dp"
+            android:text="@string/introduce_medicine" />
+
+        <Button
+            android:id="@+id/intr_audio_button"
+            android:background="@drawable/buttonstyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/blanco"
+            android:layout_gravity="center"
+            android:textSize="18dp"
+            android:layout_marginTop="20dp"
+            android:text="@string/introduce_audio" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

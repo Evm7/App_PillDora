@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:fab="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context=".MainActivity">
+
+    <androidx.drawerlayout.widget.DrawerLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/drawer_layout"
+        android:fitsSystemWindows="true"
+        tools:openDrawer="start"
+        android:elevation="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <androidx.appcompat.widget.Toolbar
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                android:background="@color/Aide"
+                android:id="@+id/toolbar"
+                android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+                app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+                android:elevation="4dp" />
+
+            <FrameLayout
+                android:id="@+id/fragment_container"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+        </LinearLayout>
+
+        <com.google.android.material.navigation.NavigationView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="start"
+            android:id="@+id/nav_view"
+            app:headerLayout="@layout/nav_header"
+            app:menu="@menu/drawer_menu" />
+
+    </androidx.drawerlayout.widget.DrawerLayout>
+
+    <com.getbase.floatingactionbutton.FloatingActionsMenu
+        android:id="@+id/menu_fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end|bottom"
+        android:layout_margin="@dimen/margenes_fab"
+        fab:fab_addButtonColorNormal="@color/Aide"
+        fab:fab_addButtonSize="normal"
+        fab:fab_labelStyle="@style/Etiquetas"
+        fab:fab_labelsPosition="left"
+        android:elevation="10dp">
+
+        <com.getbase.floatingactionbutton.FloatingActionButton
+            android:id="@+id/taking_pill"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            fab:fab_colorNormal="@color/Aide"
+            fab:fab_icon="@drawable/ic_add_to_queue_black_24dp"
+            fab:fab_size="mini"
+            fab:fab_title="@string/take_pill" />
+
+        <com.getbase.floatingactionbutton.FloatingActionButton
+            android:id="@+id/new_med"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            fab:fab_colorNormal="@color/Aide"
+            fab:fab_icon="@drawable/ic_pill"
+            fab:fab_size="mini"
+            fab:fab_title="@string/new_medicine" />
+
+        <com.getbase.floatingactionbutton.FloatingActionButton
+            android:id="@+id/new_prescription"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            fab:fab_colorNormal="@color/Aide"
+            fab:fab_icon="@drawable/ic_list"
+            fab:fab_size="mini"
+            fab:fab_title="@string/new_prescription" />
+
+
+    </com.getbase.floatingactionbutton.FloatingActionsMenu>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

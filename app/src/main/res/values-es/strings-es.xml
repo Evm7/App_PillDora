@@ -1,0 +1,166 @@
+<resources>
+    <string name="app_name">AideBot</string>
+    <string name="title_activity_login">Inicia sesión</string>
+    <string name="prompt_email">Correo electrónico</string>
+    <string name="prompt_password">Contraseña</string>
+    <string name="action_sign_in">Inicia sesión o regístrate</string>
+    <string name="action_sign_in_short">Inicia sesión</string>
+    <string name="welcome">"Bienvenido!"</string>
+    <string name="invalid_username">Usuario no válido</string>
+    <string name="invalid_password">La contrasenya debe tener >5 caracteres</string>
+    <string name="login_failed">"Inicio de sesión fallido"</string>
+
+    <string name="user_instructions">"No hay productos para mostrar"</string>
+
+    <string name="navigation_drawer_open">Abrir menú de navegación</string>
+    <string name="navigation_drawer_close">Cerrar menú de navegación</string>
+    <string name="expiration_date">Data de expiración:</string>
+    <string name="change_password">Cambiar contraseña</string>
+    <string name="click_to_insert_new_password">Pulsa para insertar una nueva contraseña </string>
+    <string name="set">Cambiar</string>
+    <string name="change_language">Cambiar idioma</string>
+    <string name="sets_language">"Establece el nuevo idioma"</string>
+    <string name="change_postal_code">Cambiar el código postal</string>
+    <string name="establishes_postal_code">Escribe el código postal</string>
+    <string name="change_email_adress">Cambiar correo electrónico</string>
+    <string name="user_email_adress">Correo electrónico del usuario</string>
+    <string name="new_email_tutor">Añadir nuevo correo electrónico para notificar al supervisor</string>
+    <string name="add_email_adress">Añadir correo electrónico del usuario</string>
+    <string name="delete">Eliminar</string>
+    <string name="delete_account">Eliminar cuenta</string>
+    <string name="go_back">Atrás</string>
+    <string name="username">Nombre de usuario</string>
+    <string name="password">Contraseña</string>
+    <string name="sign_in">INICIA SESIÓN</string>
+    <string name="dont_have_account">¿No tienes una cuenta?  Regístrate</string>
+    <string name="take_pill">Tomar pastilla</string>
+    <string name="new_prescription">Nueva receta médica</string>
+    <string name="new_medicine">Nuevo medicamento</string>
+    <string name="sign_up">REGISTRARSE</string>
+    <string name="translate">TRADUCE</string>
+    <string name="email">Correo electrónico</string>
+    <string name="already_account">¿Ya tienes una cuenta?  Inicia sesión</string>
+    <string name="birthday">Fecha de nacimiento</string>
+    <string name="add_postal_code">Añade el código postal</string>
+    <string name="insert_profile_picture">Pulsa para insertar una foto de perfil</string>
+    <string name="information_aidebot">¿Información de Aidebot?</string>
+    <string name="creators">Creadores:</string>
+    <string name="name">Nombre:</string>
+    <string name="subject">Concepto:</string>
+    <string name="version">Data de la última versión:</string>
+    <string name="introduce_new_email">Introduce el nuevo correo electrónico del usuario</string>
+    <string name="introduce_new_tutor_email">Introduce el nuevo correo electrónico de tu supervisor</string>
+    <string name="change_tutor_email">Cambiar correo electrónico de tu supervisor</string>
+    <string name="introduce_new_language">Introduce un nuevo idioma</string>
+    <string name="introduce_current_password">Introduce tu contraseña actual</string>
+    <string name="introduce_password_again">Introduce de nuevo tu nueva contraseña</string>
+    <string name="introduce_new_password">Introduce tu nueva contraseña </string>
+    <string name="introduce_new_postal_code">Introduce tu nuevo código postal</string>
+    <string name="account">Cuenta</string>
+    <string name="notification">Notificaciones</string>
+    <string name="help">Ayuda</string>
+    <string name="show_video_about_aidebot">Mostrar video de Aidebot</string>
+    <string name="invite_friends">Invita a tus amigos</string>
+    <string name="information_about_app">Información de la aplicación</string>
+    <string name="home">Menú</string>
+    <string name="sure_new_medicine">¿Estás seguro que quieres introducir este nuevo medicamento a tu Inventorio?</string>
+    <string name="sure_new_prescription">¿Estás seguro que quieres introducir esta nueva receta médica a tus Tratamientos Actuales?</string>
+    <string name="pills_to_take">Pastillas a tomar:</string>
+    <string name="exp_date">Data exp.:</string>
+    <string name="yes">SI</string>
+    <string name="no">NO</string>
+    <string name="pills_to_take_each_time">Pastillas a tomar cada hora:</string>
+    <string name="frequency">Frecuencia:</string>
+    <string name="end_date">Último dia:</string>
+    <string name="is_this_pill">¿Vas a tomarte esta pastilla?</string>
+    <string name="pills_in_the_box">Pastillas en la caja</string>
+    <string name="product_name">Nombre del producto</string>
+    <string name="push_calendar_icon">Pulsa el icono del calendario</string>
+    <string name="taken">TOMADO</string>
+    <string name="not_taken">NO TOMADO</string>
+    <string name="delete_Account">Are you sure you want to delete your account?</string>
+    <string name="information_byebye">Toda la información de tu cuenta quedará eliminada. No será posible recuperarla</string>
+    <string name="delete_drug">¿Estás seguro que quieres eliminar este medicamento?</string>
+    <string name="information">INFORMACIÓN</string>
+    <string name="voice_recorder">INTRODUCIR POR VOZ</string>
+    <string name="quantity">Cantidad</string>
+    <string name="option">Selecciona una opción:</string>
+    <string name="calendar">Calendario</string>
+    <string name="journey">Viaje</string>
+    <string name="next_reminders">Próximos recordatorios</string>
+    <string name="reminders_of">Recordatorios del:</string>
+    <string name="user_cancel">Cancelación del usuario</string>
+    <string name="current_treatments">Tratamientos actuales</string>
+    <string name="medicine_name">Nombre del medicamento (CN)</string>
+    <string name="pills_in_the_package">¿Cuantas pastillas hay en la caja?</string>
+    <string name="when_pills_expire">¿Cuando caducan las pastillas?</string>
+    <string name="introduce_prescription">Introducir Receta Médica</string>
+    <string name="introduce_medicine">Introducir Medicamento</string>
+    <string name="introduce_audio">Introducir por voz</string>
+    <string name="set_time_reminders">Escribe la hora del recordatorio</string>
+    <string name="add_reminders">Añade un recordatorio</string>
+    <string name="pill_have_to_take">¿Cuantas pastillas tienes que tomarte?</string>
+    <string name="when_treatment_expire">¿Cuando termina el tratamiento?</string>
+    <string name="chronic">CRÓNICO</string>
+    <string name="often_pills">¿Cada cuando te tomas este medicamento (en horas)?</string>
+    <string name="screenshot_problem">Añade una foto del problema (opcional)</string>
+    <string name="describe_problem">Describe el problema</string>
+    <string name="read">¿Te has leído nuestras preguntas frecuentes?</string>
+    <string name="send">Enviar</string>
+    <string name="time">Hora ⏰</string>
+    <string name="delete_reminder">Eliminar recordatorio</string>
+    <string name="color">Escoge color de la luz</string>
+    <string name="red">ROJO</string>
+    <string name="cyan">CYAN</string>
+    <string name="none">NINGUNO</string>
+    <string name="yellow">AMARILLO</string>
+    <string name="log_out">¿Estás seguro que quieres cerrar sesión?</string>
+    <string name="log_out_1">Cerrar Sesión</string>
+    <string name="reminders_to_be_set">ESCOGE NUEVOS REMINDERS:</string>
+    <string name="notifications_tone">Tono de notificaciones</string>
+    <string name="sound">Reproduce el sonido de las notificaciones de entrada o salida</string>
+    <string name="notification_vibration">Vibración para las notificaciones</string>
+    <string name="vibration">Elige el tipo de vibración para las notificaciones</string>
+    <string name="notification_light">Luz de las notificaciones</string>
+    <string name="light">Establece la luz del color de las notificaciones</string>
+    <string name="notification_priority">Prioridad de las notificaciones</string>
+    <string name="priority">Prioridad de las notificaciones</string>
+    <string name="email_Notification">Notificaciones por correo</string>
+    <string name="email_notification">Las notificaciones también serán enviadas al correo del usuario</string>
+    <string name="choose_priority">Escoge la prioridad de las notificaciones</string>
+    <string name="max">MAX</string>
+    <string name="default_mode">POR DEFECTO</string>
+    <string name="high">ALTO</string>
+    <string name="min">MÍNIMO</string>
+    <string name="low">BAJO</string>
+    <string name="Return_day">Dia de vuelta</string>
+    <string name="medicine_to_remind">NOMBRE DEL MEDICAMENTO A RECORDAR</string>
+    <string name="close">Cerrar</string>
+    <string name="Departure_Day">Dia de salida</string>
+    <string name="vibration_type">Escoge el tipo de vibración</string>
+    <string name="disabled">DESHABILITADO</string>
+    <string name="predeterminated">PREDETERMINADO</string>
+    <string name="long_mode">LARGA</string>
+    <string name="short_mode">CORTA</string>
+    <string name="inventory">Inventorio</string>
+    <string name="history">Historial</string>
+    <string name="configuration">Configuración</string>
+    <string name="treatments">Tratamientos</string>
+
+    <string-array name="country_arrays">
+        <item>Elije Idioma </item>
+        <item>Español 🇪🇸</item>
+        <item>Inglés 🇬🇧</item>
+        <item>Catalán</item>
+        <item>Francés 🇫🇷</item>
+        <item>Alemán 🇩🇪</item>
+    </string-array>
+
+    <string-array name="genders_array">
+        <item>Elije Género </item>
+        <item>Hombre 🙋‍♂️</item>
+        <item>Mujer 🙋‍♀️</item>
+        <item>Otros 🕵️‍♂️</item>
+    </string-array>
+
+</resources>

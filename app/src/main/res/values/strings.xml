@@ -1,0 +1,167 @@
+<resources>
+    <string name="app_name">AideBot</string>
+    <string name="title_activity_login">Sign in</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+
+    <string name="user_instructions">"No products to display"</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string-array name="country_arrays">
+        <item>Choose Language </item>
+        <item>Spanish 🇪🇸</item>
+        <item>English 🇬🇧</item>
+        <item>Catalan</item>
+        <item>French 🇫🇷</item>
+        <item>German 🇩🇪</item>
+    </string-array>
+
+    <string-array name="genders_array">
+        <item>Choose Gender </item>
+        <item>Man 🙋‍♂️</item>
+        <item>Woman 🙋‍♀️</item>
+        <item>Others 🕵️‍♂️</item>
+    </string-array>
+
+    <string name="expiration_date">Expiration date:</string>
+    <string name="change_password">Change password</string>
+    <string name="click_to_insert_new_password">Click to insert new password for the account </string>
+    <string name="set">Set</string>
+    <string name="change_language">Change Language</string>
+    <string name="sets_language">"Sets the language"</string>
+    <string name="change_postal_code">Change postal code</string>
+    <string name="establishes_postal_code">Establishes the postal code</string>
+    <string name="change_email_adress">Change email address</string>
+    <string name="user_email_adress">User email adress</string>
+    <string name="new_email_tutor">Add new email address for notificatying tutor</string>
+    <string name="add_email_adress">Add email adress</string>
+    <string name="delete">Delete</string>
+    <string name="delete_account">Delete Account</string>
+    <string name="go_back">Go back</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="sign_in">SIGN IN</string>
+    <string name="dont_have_account">Don\'t Have an Account?  Sign Up</string>
+    <string name="take_pill">Take Pill</string>
+    <string name="new_prescription">New Prescription</string>
+    <string name="new_medicine">New Medicine</string>
+    <string name="sign_up">SIGN UP</string>
+    <string name="translate">TRANSLATE</string>
+    <string name="email">Email</string>
+    <string name="already_account">Already Have an Account?  Sign in</string>
+    <string name="birthday">Date of birth</string>
+    <string name="add_postal_code">Add Postal Code</string>
+    <string name="insert_profile_picture">Click to insert your profile picture</string>
+    <string name="information_aidebot">Information about Aidebot?</string>
+    <string name="creators">Creators:</string>
+    <string name="name">Name:</string>
+    <string name="subject">Subject:</string>
+    <string name="version">Version app date:</string>
+    <string name="introduce_new_email">Introduce new user email</string>
+    <string name="introduce_new_tutor_email">Introduce new tutor email</string>
+    <string name="change_tutor_email">Change email of the tutor</string>
+    <string name="introduce_new_language">Introduce new language</string>
+    <string name="introduce_current_password">Introduce your current password</string>
+    <string name="introduce_password_again">Introduce new password again for double check</string>
+    <string name="introduce_new_password">Introduce your new password</string>
+    <string name="introduce_new_postal_code">Introduce your new postal code</string>
+    <string name="account">Account</string>
+    <string name="notification">Notifications</string>
+    <string name="help">Help</string>
+    <string name="show_video_about_aidebot">Show video about Aidebot</string>
+    <string name="invite_friends">Invite friends</string>
+    <string name="information_about_app">Information about app</string>
+    <string name="home">Home</string>
+    <string name="sure_new_medicine">Are you sure you want to introduce this new medicine to your Inventory?</string>
+    <string name="sure_new_prescription">Are you sure you want to introduce this new prescription to your Current Treatment?</string>
+    <string name="pills_to_take">Pills to take:</string>
+    <string name="exp_date">Exp.Date:</string>
+    <string name="yes">YES</string>
+    <string name="no">NO</string>
+    <string name="pills_to_take_each_time">Pills to take each time:</string>
+    <string name="frequency">Frequency:</string>
+    <string name="end_date">End date:</string>
+    <string name="is_this_pill">Is this the pill you are going to take?</string>
+    <string name="pills_in_the_box">Pills in the box</string>
+    <string name="product_name">Product name</string>
+    <string name="push_calendar_icon">Push the calendar icon</string>
+    <string name="taken">TAKEN</string>
+    <string name="not_taken">NOT TAKEN</string>
+    <string name="delete_Account">Are you sure you want to delete your account?</string>
+    <string name="information_byebye">All information of your account will be permenatly deleted. No possible recover</string>
+    <string name="delete_drug">Are you sure you want to delete this medicine?</string>
+    <string name="information">INFORMATION</string>
+    <string name="voice_recorder">INTRODUCE BY VOICE</string>
+    <string name="quantity">Quantity</string>
+    <string name="option">Select one option:</string>
+    <string name="calendar">Calendar</string>
+    <string name="journey">Journey</string>
+    <string name="next_reminders">Next Reminders</string>
+    <string name="reminders_of">Reminders of:</string>
+    <string name="user_cancel">User cancel</string>
+    <string name="current_treatments">Currents Treatments</string>
+    <string name="medicine_name">Name of the medicine (CN)</string>
+    <string name="pills_in_the_package">How many pills are in the package?</string>
+    <string name="when_pills_expire">When does the pills expire?</string>
+    <string name="introduce_prescription">Introduce Prescription</string>
+    <string name="introduce_medicine">Introduce Medicine</string>
+    <string name="introduce_audio">Introduce by audio</string>
+    <string name="set_time_reminders">Set time for the reminders</string>
+    <string name="add_reminders">Add Reminders</string>
+    <string name="pill_have_to_take">How many pills do you have to take?</string>
+    <string name="when_treatment_expire">When does the treatment expire?</string>
+    <string name="chronic">CHRONIC</string>
+    <string name="often_pills">How often do you take this medicine (in hours)?</string>
+    <string name="screenshot_problem">Add screenshots of the problem (optional)</string>
+    <string name="describe_problem">Describe problem</string>
+    <string name="read">Have you already read our Frequent Questions?</string>
+    <string name="send">Send</string>
+    <string name="time">Time ⏰</string>
+    <string name="delete_reminder">DELETE REMINDER</string>
+    <string name="color">Choose colour of light</string>
+    <string name="red">RED</string>
+    <string name="cyan">CYAN</string>
+    <string name="none">NONE</string>
+    <string name="yellow">YELLOW</string>
+    <string name="log_out">Are you sure you want to Log out?</string>
+    <string name="log_out_1">Log out</string>
+    <string name="reminders_to_be_set">CHOOSE NEW REMINDERS TO BE SET:</string>
+    <string name="notifications_tone">Notifcations tones</string>
+    <string name="sound">Reproduces sounds for the in or out notifcations</string>
+    <string name="notification_vibration">Notifcations Vibration</string>
+    <string name="vibration">Sets the type of vibration for the notification</string>
+    <string name="notification_light">Notifications Light</string>
+    <string name="light">Establishes the colour light fot the notifications</string>
+    <string name="notification_priority">Notification priority</string>
+    <string name="priority">Priority of the notifications</string>
+    <string name="email_Notification">Email Notification</string>
+    <string name="email_notification">Notification will also be send to email of user</string>
+    <string name="choose_priority">Choose priority of notifications</string>
+    <string name="max">MAX</string>
+    <string name="default_mode">DEFAULT</string>
+    <string name="high">HIGH</string>
+    <string name="min">MIN</string>
+    <string name="low">LOW</string>
+    <string name="Return_day">Return day</string>
+    <string name="medicine_to_remind">NAME OF THE MEDICINE TO REMIND</string>
+    <string name="close">Close</string>
+    <string name="Departure_Day">Departure Day</string>
+    <string name="vibration_type">Choose type of vibration</string>
+    <string name="disabled">DISABLED</string>
+    <string name="predeterminated">PREDETERMINATED</string>
+    <string name="long_mode">LONG</string>
+    <string name="short_mode">SHORT</string>
+    <string name="inventory">Inventory</string>
+    <string name="history">History</string>
+    <string name="configuration">Configuration</string>
+    <string name="treatments">Treatments</string>
+
+</resources>

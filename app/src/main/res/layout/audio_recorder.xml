@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin">
+
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:background="@color/Aide"
+        android:id="@+id/toolbar"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+
+        <TextView
+            style="@style/ProductNameListStyle"
+            android:layout_width="220dp"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical|center_horizontal"
+            android:inputType="number"
+            android:textSize="15dp"
+            android:textColor="@color/blanco"
+            android:text="@string/introduce_audio" />
+
+        <Button
+            android:id="@+id/CloseDialog"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/round_button_background"
+            android:gravity="center_vertical|center_horizontal"
+            android:onClick="cancelActivity"
+            android:text="X"
+            android:textColor="#FFF"
+            android:textSize="12sp"
+            android:textStyle="bold" />
+
+    </androidx.appcompat.widget.Toolbar>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button"
+        android:text="Record"
+        android:id="@+id/button"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="37dp"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button"
+        android:text="STOP"
+        android:id="@+id/button2"
+        android:layout_alignTop="@+id/button"
+        android:layout_centerHorizontal="true"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button"
+        android:text="Play"
+        android:id="@+id/button3"
+        android:layout_alignTop="@+id/button2"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SEND VOICE RECORDED "
+        android:background="@drawable/button"
+        android:id="@+id/button4"
+        android:layout_below="@+id/button2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        />
+</RelativeLayout>
